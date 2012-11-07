@@ -1,0 +1,234 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Le projet www.cine-pantin.com</title>
+<meta name="version" content="S5 1.1" />
+<meta name="generator" content="Carefully handcrafted with Bare Bones Software's TextWrangler" />
+<meta name="presdate" content="2012/11/21" />
+<meta name="author" content="Alain BECKER" />
+<meta name="company" content="www.cine-pantin.com dev. team" />
+<meta http-equiv="Content-Type" content="application/xhtml+xml;charset=utf-8" />
+<meta name="defaultView" content="slideshow" />
+<meta name="controlVis" content="hidden" />
+<!-- 
+<link rel="stylesheet" href="ui/default/slides.css" type="text/css" media="projection" id="slideProj" />
+<link rel="stylesheet" href="ui/i18n/slides.css" type="text/css" media="projection" id="slideProj" />
+<link rel="stylesheet" href="ui/flower/slides.css" type="text/css" media="projection" id="slideProj" />
+<link rel="stylesheet" href="ui/blue/slides.css" type="text/css" media="projection" id="slideProj" />
+<link rel="stylesheet" href="ui/pixel/slides.css" type="text/css" media="projection" id="slideProj" />
+<link rel="stylesheet" href="ui/yatil/slides.css" type="text/css" media="projection" id="slideProj" />
+-->
+<link rel="stylesheet" href="ui/yatil/slides.css" type="text/css" media="projection" id="slideProj" />
+<link rel="stylesheet" href="ui/default/outline.css" type="text/css" media="screen" id="outlineStyle" />
+<link rel="stylesheet" href="ui/default/print.css" type="text/css" media="print" id="slidePrint" />
+<link rel="stylesheet" href="ui/default/opera.css" type="text/css" media="projection" id="operaFix" />
+<style type="text/css">
+.slide h1 {
+	text-transform: none; /* capitalize | lowercase | none | uppercase*/
+	font-variant: small-caps;
+}
+</style>
+<script src="ui/default/slides.js" type="text/javascript"></script>
+</head>
+<body>
+
+<div class="layout">
+
+  <div id="controls"></div>
+  <div id="currentSlide"></div>
+  <div id="header"></div>
+  <div id="footer">
+    <h1>www.cine-pantin.com</h1>
+    <h2>Alain BECKER &#8226; CQP DNT &#8226; 21 Novembre 2012</h2>
+  </div>
+  <div class="topleft" id="author"></div>
+  <div class="topright" id="company"></div>
+  <div class="bottomleft"></div>
+  <div class="bottomright"></div>
+
+</div>
+<div class="presentation">
+
+  <div class="slide">
+  <h1>www.cine-pantin.com</h1>
+  <h2>Projet de mise en situation</h2>
+  <h3>Alain BECKER</h3>
+  <h4>&laquo;&nbsp;CQP Développeur Nouvelles Technologies&nbsp;&raquo;</h4>
+  <!--
+  <ul>
+    <li><a href="#slide1">#1</a></li>
+    <li><a href="#slide2">#2</a></li>
+  </ul>
+  -->
+  </div>
+  
+  <div class="slide">
+  <h1>Plan de la présentation</h1>
+  <div class="slidecontent">
+    <ol>
+      <li>Projet
+        <ul>
+          <li>Problématique</li>
+          <li>Outillage</li>
+        </ul>
+      </li>
+      <li>Solution
+        <ul>
+          <li>Frameworks</li>
+          <li>Mise en &oelig;uvre</li>
+        </ul>
+      </li>
+    </ol>
+    <p>Questions / Réponses</p>
+  </div>
+  <div class="handout">
+    <p>Durée: 30 à 40 minutes</p>
+  </div>
+  </div>
+  
+  <div class="slide">
+    <h1>1.A - La problématique projet</h1>
+    <div class="slidecontent">
+      <ul>
+        <li>Le contexte de CinePantin</li>
+        <li>Les enjeux :
+          <ul>
+            <li>Versions successives</li>
+            <li>Évolutivité</li>
+            <li>Maîtrise</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="handout">
+    </div>
+  </div>
+  
+  <div class="slide">
+    <h1>1.B - L'outillage du projet</h1>
+    <div class="slidecontent">
+      <ul>
+        <li>Java
+          <ul>
+            <li>Développement orienté objet</li>
+            <li>Serveur(s)</li>
+            <li>Infrastructure de développement</li>
+          </ul>
+        </li>
+        <li>Modélisation objet
+          <ul>
+            <li>+ relationnel</li>
+          </ul>
+        </li>
+        <li>Maîtrise
+          <ul>
+            <li>Maven</li>
+            <li>Git</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="handout">
+    </div>
+  </div>
+  
+  <div class="slide">
+    <h1>2.A - Les frameworks : pourquoi ?</h1>
+    <div class="slidecontent">
+      <ul>
+        <li>Modélisation objet/relationnel
+          <ul>
+            <li>JPA</li>
+            <li>Hibernate</li>
+          </ul>
+        </li>
+        <li>Interface utilisateur MVC
+          <ul>
+            <li>Struts</li>
+          </ul>
+        </li>
+        <li>Gabarits
+          <ul>
+            <li>Tiles</li>
+          </ul>
+        </li>
+        <li>Plate-forme
+          <ul>
+            <li>Spring</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="handout">
+    </div>
+  </div>
+  
+  <div class="slide">
+    <h1>2.B - Mise en &oelig;uvre de la solution</h1>
+    <div class="slidecontent">
+      <h2>Intégration continue</h2>
+      <ul>
+        <li>Analyse
+        </li>
+        <li>Du diagramme de classes UML au modèle physique de données
+        </li>
+        <li>Use case
+          <ul>
+            <li>MVC (Struts)</li>
+          </ul>
+        </li>
+        <li>UX et créa
+          <ul>
+            <li>Tiles</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="handout">
+    </div>
+  </div>
+  
+  <div class="slide">
+    <h1>Conclusion</h1>
+    <div class="slidecontent">
+      <ul>
+        <li>Points positifs
+          <ul>
+            <li>Une solution évolutive</li>
+            <li>Une infrastructure ouverte</li>
+            <li>Un environnement maîtrisé</li>
+          </ul>
+        </li>
+        <li>Points d'interrogation
+          <ul>
+            <li>Intégration continue vs. Cycle en V</li>
+          </ul>
+        </li>
+        <li>Aspects à améliorer
+          <ul>
+            <li>Grosse consommation de temps sur l'infra...</li>
+            <li>Fonctionnalités</li>
+            <li>Tests</li>
+            <li>...</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="handout">
+    </div>
+  </div>
+  
+  <div class="slide">
+    <h1>Questions / Réponses</h1>
+    <div class="slidecontent">
+      <h2>Questions / Réponses</h2>
+    </div>
+    <div class="handout">
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
